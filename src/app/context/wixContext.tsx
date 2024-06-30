@@ -13,7 +13,7 @@ const myWixClient = createClient({
       collections,
     },
     auth: OAuthStrategy({
-      clientId: process.env.YOUR_CLIENT_ID!,
+      clientId: process.env.NEXT_PUBLIC_YOUR_CLIENT_ID!,
       tokens: {
         refreshToken,
         accessToken: {
